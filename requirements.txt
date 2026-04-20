@@ -1,0 +1,28 @@
+# MilJoy — AI Call Assistant
+# Requirements file — install all dependencies with:
+# pip install -r requirements.txt
+
+# Audio capture and processing
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Speech transcription (local, free)
+faster-whisper>=0.10.0
+
+# AI suggestion generation
+groq>=0.4.0
+
+# Encrypted credentials storage
+cryptography>=41.0.0
+
+# HTTP requests for usage tracking
+requests>=2.31.0
+
+# Email sending (built into Python — no install needed)
+# smtplib, email — standard library
+
+# Windows audio (built into Windows — no install needed)
+# ctypes, winreg — standard library
+
+# UI (built into Python — no install needed)
+# tkinter — standard library

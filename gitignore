@@ -1,0 +1,90 @@
+# MilJoy — AI Call Assistant
+# .gitignore — files that should NEVER be uploaded to GitHub
+
+# =============================================================
+# SENSITIVE FILES — credentials and personal data
+# NEVER upload these — they contain private information
+# =============================================================
+
+# Encrypted credentials file (contains your Gmail app password)
+miljoy_credentials.enc
+
+# User settings (contains API keys and personal info)
+settings.json
+
+# Anonymous user ID
+miljoy_user_id.txt
+
+# =============================================================
+# CALL DATA — personal call records
+# =============================================================
+
+# MilJoy Notes folder (transcripts and summaries)
+MilJoy Notes/
+
+# Any transcript or summary files
+*_Transcript_*.txt
+*_Summary_*.txt
+
+# =============================================================
+# PYTHON
+# =============================================================
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# =============================================================
+# INSTALLER BUILD FILES
+# =============================================================
+
+# PyInstaller output
+dist/
+build/
+*.spec
+
+# Inno Setup compiled output
+Output/
+*.exe
+!MilJoy_Setup.exe    # Keep the final installer if you want to share it
+
+# =============================================================
+# EDITOR FILES
+# =============================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+
+# =============================================================
+# LOGS AND TEMP FILES
+# =============================================================
+
+*.log
+*.tmp
+*.temp
